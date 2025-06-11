@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="css/container.css" rel="stylesheet">
+    <script src="javascript/script.js"></script>
+</head>
+<body>
+    
+    <div class ="container">
+        <div class="solutionSection">
+           <!--<div class="solution">
+                solution
+           </div>-->
+
+           <div class="operations">
+              <label id="operations"></label>
+           </div>
+        </div>
+        
+        <div class="operatorsandoperands">
+            <div class="operands">
+                <div class="one"><button class="button" onclick="insertOne()">1</button></div>
+                <div class="two"><button class="button" onclick="insertTwo()">2</button></div>
+                <div class="three"><button class="button" onclick="insertThree()">3</button></div>
+                <div class="four"><button class="button" onclick="insertFour()">4</button></div>
+                <div class="five"><button class="button" onclick="insertFive()">5</button></div>
+                <div class="six"><button class="button" onclick="insertSix()">6</button></div>
+                <div class="seven"><button class="button" onclick="insertSeven()">7</button></div>
+                <div class="eight"><button class="button" onclick="insertEight()">8</button></div>
+                <div class="nine"><button class="button" onclick="insertNine()">9</button></div>
+                <div class="zero"><button class="button" onclick="insertZero()">0</button></div>
+                <div class="doubleZero"><button class="button" onclick="insertDoubleZero()">00</button></div>
+                <div class="decimal"><button class="button" onclick="insertDecimalPoint()">.</button></div>
+                <div class="backspace"><button class="button" onclick="backspace()">Delete</button></div>
+                <div class="cancel"><button class="button" onclick="cancel()">C</button></div>                 
+                <div class="percentage"><button class="button" onclick="insertPercentage()">%</button></div>
+                <div class="squared"><button class="button" onclick="calculateSquared()">X<sup>2</sup></button></div>
+            </div>
+
+            <div class="operators">
+                <div class="plus"><button class="button" onclick="insertPlus()">+</button></div>
+                <div class="minus"><button class="button" onclick="insertMinus()">-</button></div>
+                <div class="divide"><button class="button" onclick="insertDivide()">/</button></div>
+                <div class="multiplication"><button class="button" onclick="insertMultiplication()">*</button></div>
+                <div class="equal"><button class="button" onclick="calculate()">=</button></div>
+                <div class="squareroot"><button class="button" onclick="insertSquareRoot()">√</button></div>
+                <div class="plusminus"><button class="button" onclick="insertPlusMinus()">+/-</button></div>
+                <div class="factorial"><button class="button" onclick="insertFactorial()">!</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
