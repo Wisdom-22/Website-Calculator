@@ -170,6 +170,10 @@
     /*border: 5px solid violet;*/
 }
 
+sup{
+    background-color: #0d0dce;
+}
+
 .plus{
     grid-row:1/2;
     grid-column: 1/ 2;
